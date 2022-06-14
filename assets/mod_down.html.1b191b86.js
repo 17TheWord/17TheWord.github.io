@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-c34523f6","path":"/guide/mchelp/resource/mod_down.html","title":"Mod\u4E0B\u8F7D\u533A","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"guide/mchelp/resource/mod_down.md"}');export{e as data};
