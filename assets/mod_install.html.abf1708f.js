@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5f8ac090","path":"/guide/mchelp/game_install/mod_install.html","title":"\u5B89\u88C5 Mod","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"guide/mchelp/game_install/mod_install.md"}');export{e as data};
