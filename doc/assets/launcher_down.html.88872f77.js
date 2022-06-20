@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-f72e0626","path":"/guide/mchelp/resource/launcher_down.html","title":"\u542F\u52A8\u5668\u4E0B\u8F7D\u533A","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"guide/mchelp/resource/launcher_down.md"}');export{e as data};
