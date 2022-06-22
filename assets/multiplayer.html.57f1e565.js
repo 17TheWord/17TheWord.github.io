@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c055c0a2","path":"/guide/mchelp/online/multiplayer.html","title":"\u591A\u4EBA\u8054\u673A","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"guide/mchelp/online/multiplayer.md"}');export{e as data};
