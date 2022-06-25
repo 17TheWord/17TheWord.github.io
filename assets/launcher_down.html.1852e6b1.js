@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-27e4f3ba","path":"/mchelp/resource/launcher_down.html","title":"\u542F\u52A8\u5668\u4E0B\u8F7D\u533A","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"mchelp/resource/launcher_down.md"}');export{e as data};
