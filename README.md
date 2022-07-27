@@ -1,15 +1,15 @@
 # 17 TheWord 文档库
 
-- [API](guide/api/README.md)
+- [API](api/README.md)
 
 
-- [MC大佬指北](guide/mchelp/README.md)
+- [MC大佬指北](mchelp/README.md)
 
 
-- [Haruka_Bot_Guild](guide/haruka_guild/README.md)
+- [Haruka_Bot_Guild](haruka/README.md)
 
 
-- [MGC 歧义及观点纠正](haruka_guild/README.md)
+- [MGC 歧义及观点纠正](mgc/README.md)
 
 
 - 仍在装修中
