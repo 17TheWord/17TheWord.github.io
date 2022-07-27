@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-13e4381d","path":"/mchelp/game_install/mod_install.html","title":"\u5B89\u88C5 Mod","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"mchelp/game_install/mod_install.md"}');export{t as data};

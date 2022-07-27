@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-781ccf4e","path":"/mchelp/game_install/package_install.html","title":"\u5B89\u88C5\u6574\u5408\u5305","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"mchelp/game_install/package_install.md"}');export{a as data};

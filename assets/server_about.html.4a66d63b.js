@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-dede08ac","path":"/mchelp/other/server_about.html","title":"\u8054\u673A\u4E0E\u5F00\u670D\u7684\u7EC6\u8282","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"mchelp/other/server_about.md"}');export{e as data};
