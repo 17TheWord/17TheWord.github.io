@@ -9,6 +9,9 @@
 - [Haruka_Bot_Guild](guide/haruka_guild/README.md)
 
 
+- [MGC 歧义及观点纠正](haruka_guild/README.md)
+
+
 - 仍在装修中
 
 
