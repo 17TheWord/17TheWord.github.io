@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7da9167e","path":"/mgc/netease_shader.html","title":"\u7F51\u6613\u7248\u7740\u8272\u5668","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"mgc/netease_shader.md"}');export{e as data};
