@@ -6,9 +6,9 @@
 
 - [MGC 歧义及观点纠正](mgc/README.md)
 
-- [Msg_QQ](msg_qq/README.md)
+- [MC_QQ](mc_qq/README.md)
 
-- [Haruka_Bot_Guild](haruka/README.md)
+- [HarukaBot_Guild](haruka_guild/README.md)
 
 - 仍在装修中
 
