@@ -1,0 +1,58 @@
+import{_ as d,o as s,c as a,a as i,b as n,d as e,e as o,r as u}from"./app.22e5c5af.js";const c={},r=i("h1",{id:"\u4F7F\u7528\u65B9\u6CD5",tabindex:"-1"},[i("a",{class:"header-anchor",href:"#\u4F7F\u7528\u65B9\u6CD5","aria-hidden":"true"},"#"),e(" \u4F7F\u7528\u65B9\u6CD5")],-1),t=i("h3",{id:"\u524D\u7F6E",tabindex:"-1"},[i("a",{class:"header-anchor",href:"#\u524D\u7F6E","aria-hidden":"true"},"#"),e(" \u524D\u7F6E")],-1),v={href:"https://github.com/mnixry/nonebot-plugin-guild-patch",target:"_blank",rel:"noopener noreferrer"},_=e("nonebot-plugin-guild-patch"),b=e("\uFF1A\u9891\u9053\u9002\u914D\u8865\u4E01\u3002"),p=i("li",null,[i("p",null,"Python 3.10.5 \uFF08\u672C\u4EBA\u73AF\u5883\uFF09")],-1),m=i("li",null,[i("p",null,[e("\u5F53\u524D\u9002\u914DHarukaBot\u7248\u672C\uFF1A"),i("code",null,"v1.4.1a60 \u6D4B\u8BD5\u7248")])],-1),h=i("hr",null,null,-1),x=i("h3",{id:"\u4E0B\u8F7D",tabindex:"-1"},[i("a",{class:"header-anchor",href:"#\u4E0B\u8F7D","aria-hidden":"true"},"#"),e(" \u4E0B\u8F7D")],-1),g=e("\u524D\u5F80 "),k={href:"https://github.com/17TheWord/HarukaBot_Guild_Patch/releases",target:"_blank",rel:"noopener noreferrer"},y=e("Realeases"),q=e(" \u4E0B\u8F7D\u8865\u4E01\u6587\u4EF6"),f=o(`<hr><h3 id="\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5" aria-hidden="true">#</a> \u5B89\u88C5</h3><ul><li>\u811A\u624B\u67B6\u5B89\u88C5 <ul><li><code>pip install haruka_bot</code></li><li><code>pip install nonebot-plugin-guild-patch</code></li></ul></li><li>NoneBot2 \u63D2\u4EF6\u5546\u5E97\u5B89\u88C5 <ul><li><code>pip install nb-cli</code></li><li><code>nb plugin install haruka_bot</code></li><li><code>nb plugin install nonebot-plugin-guild-patch</code></li></ul></li></ul><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>#\u76EE\u5F55\u7ED3\u6784\u53C2\u8003\uFF1A
+
+\u{1F4E6} HarukaBot                             # Bot\u9879\u76EE
+\u251C\u2500\u2500 \u{1F4C2} haruka                            # Bot
+\u2514\u2500\u2500 \u{1F4C2} venv                              # \u865A\u62DF\u73AF\u5883
+    \u2514\u2500\u2500 \u{1F4C2} Lib
+        \u2514\u2500\u2500 \u{1F4C2} site-packages
+            \u2514\u2500\u2500 \u{1F4C2} haruka_bot            # \u901A\u8FC7\u811A\u624B\u67B6\u6216nb\u5546\u5E97\u4E0B\u8F7D\u7684haruka_bot
+                \u251C\u2500\u2500 \u{1F4C2} database          # \u66FF\u6362
+                \u2502   \u251C\u2500\u2500 \u{1F4DC} db.py
+                \u2502   \u2514\u2500\u2500 \u{1F4DC} models.py
+                \u251C\u2500\u2500 \u{1F4C2} plugins
+                \u2502   \u251C\u2500\u2500 \u{1F4C2} guildadmin    # \u589E\u52A0
+                \u2502   \u2502   \u251C\u2500\u2500 \u{1F4DC} __init__.py
+                \u2502   \u2502   \u251C\u2500\u2500 \u{1F4DC} add_guild_admin.py
+                \u2502   \u2502   \u251C\u2500\u2500 \u{1F4DC} del_guild_admin.py
+                \u2502   \u2502   \u2514\u2500\u2500 \u{1F4DC} guild_admin_sub.py
+                \u2502   \u251C\u2500\u2500 \u{1F4C2} pusher        # \u66FF\u6362
+                \u2502   \u2502   \u251C\u2500\u2500 \u{1F4DC} dynamic_pusher.py
+                \u2502   \u2502   \u2514\u2500\u2500 \u{1F4DC} live_pusher.py
+                \u2502   \u251C\u2500\u2500 \u{1F4C2} sub           # \u66FF\u6362
+                \u2502   \u2502   \u251C\u2500\u2500 \u{1F4DC} add_sub.py
+                \u2502   \u2502   \u2514\u2500\u2500 \u{1F4DC} delete_sub.py
+                \u2502   \u2514\u2500\u2500 \u{1F4DC} __init__.py   # \u66FF\u6362
+                \u2514\u2500\u2500 \u{1F4C2} utils             # \u66FF\u6362
+                    \u2514\u2500\u2500 \u{1F4DC} __init__.py
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul><li>\u5728\u865A\u62DF\u73AF\u5883 <code>venv</code> \u76EE\u5F55\u627E\u5230 <code>haruka_bot</code>\uFF0C\u5E76\u8BBE\u6B64\u4E3A\u6B64\u65F6\u7684\u6839\u76EE\u5F55 <ul><li><p><strong>\u4FEE\u6539\u6570\u636E\u5E93\u5B58\u50A8\u65B9\u5F0F</strong></p><ul><li>\u66FF\u6362 <code>database</code> \u76EE\u5F55\u7684 <code>models.py</code></li><li>\u66FF\u6362 <code>database</code> \u76EE\u5F55\u7684 <code>db.py</code></li></ul></li><li><p><strong>\u4FEE\u6539\u5DE5\u5177\u5305</strong></p><ul><li>\u66FF\u6362 <code>utils</code> \u76EE\u5F55\u7684 <code>__init__.py</code></li></ul></li><li><p><strong>\u542F\u7528\u9891\u9053\u9002\u914D\u8865\u4E01</strong></p><ul><li>\u811A\u624B\u67B6\u5B89\u88C5 <ul><li><code>haruka_bot</code> --&gt; <code>__main__.py</code></li><li>\u5728 <code>if __name__ == &quot;__main__&quot;:</code> \u4E4B\u524D</li><li>\u586B\u5199 <code>nonebot.load_plugin(&quot;nonebot_plugin_guild_patch&quot;)</code></li></ul></li><li>NoneBot2 \u63D2\u4EF6\u5546\u5E97\u5B89\u88C5 <ul><li>\u65E0\u9700\u4FEE\u6539</li></ul></li></ul></li><li><p><strong>\u4FEE\u6539\u5173\u6CE8\u4E0E\u63A8\u9001\u7684\u65B9\u6CD5</strong></p><ul><li>\u66FF\u6362 <code>plugins</code> \u76EE\u5F55\u7684 <code>__init__.py</code></li><li>\u66FF\u6362 <code>plugins</code> --&gt; <code>sub</code> \u76EE\u5F55\u7684 <code>add_sub.py</code> \u548C <code>delete_sub.py</code></li><li>\u66FF\u6362 <code>plugins</code> --&gt; <code>pusher</code> \u76EE\u5F55\u7684 <code>dynamic_pusher.py</code> \u548C <code>live_pusher.py</code></li></ul></li><li><p><strong>\u589E\u52A0\u9891\u9053\u7BA1\u7406\u5458\u64CD\u4F5C\u547D\u4EE4</strong></p><ul><li>\u590D\u5236 <code>plugins</code> \u76EE\u5F55\u4E0B\u7684 <code>guildadmin</code> \u5230 <code>plugins</code></li></ul></li></ul></li></ul><hr><h3 id="\u4F7F\u7528" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528" aria-hidden="true">#</a> \u4F7F\u7528</h3><ul><li><p><strong>\u5176\u4ED6\u547D\u4EE4\u4E0E <code>Haruka</code> \u65E0\u5F02</strong></p></li><li><p><strong>\u8BBE\u7F6E\u9891\u9053\u7BA1\u7406\u5458\uFF1A</strong></p><ul><li>\u5728\u9891\u9053\u4E2D\u4F7F\u7528\u547D\u4EE4 <code>\u6DFB\u52A0 / \u53D6\u6D88 @xxx</code> \u5373\u53EF\u8FDB\u884C\u7BA1\u7406\u5458\u7684\u589E\u51CF\u64CD\u4F5C</li><li>\u7BA1\u7406\u5458\u53EF\u4EE5\u4F7F\u7528 <code>\u5173\u6CE8 / \u53D6\u5173</code> \u529F\u80FD</li><li>\u53EA\u6709 <strong>\u8D85\u7EA7\u7528\u6237</strong> \u624D\u53EF\u4EE5\u589E\u51CF\u7BA1\u7406\u5458</li><li>\u901A\u8FC7 <code>@</code> \u5BF9\u7BA1\u7406\u5458\u8FDB\u884C\u589E\u51CF\u64CD\u4F5C</li></ul></li><li><p><strong>\u8BBE\u7F6E\u9891\u9053\u7BA1\u7406\u5458\u8EAB\u4EFD\u7EC4\uFF1A</strong></p><ul><li>\u65B0\u5EFA\u4E00\u884C\uFF0C\u5199\u5165 <code>Haruka_GUILD_ADMIN_NAME = [&quot;xxx&quot;, &quot;xxxx&quot;]</code>\uFF0C</li><li>\u5C06 <code>xxx</code> \u66FF\u6362\u4E3A\u4F60\u7684\u9891\u9053\u7BA1\u7406\u5458\u7684\u8EAB\u4EFD\u7EC4\u7684\u540D\u79F0\uFF0C</li><li>\u652F\u6301\u591A\u4E2A\u8EAB\u4EFD\u7EC4\uFF08\u5176\u5B9E\u662F\u76EE\u524D\u6CA1\u6709\u4E00\u952E\u632A\u4EBA\u7684\u529F\u80FD\uFF0C\u5E72\u8106\u76F4\u63A5\u591A\u4E2A\u7EC4\u89E3\u51B3\uFF09\u3002</li></ul></li><li><p>\u8BBE\u7F6E\u9891\u9053\u8D85\u7EA7\u7528\u6237</p><ul><li>\u65B0\u5EFA\u4E00\u884C</li><li><code>Haruka_Guild_Super_User_List = [&quot;xxxxxxxxxx&quot;]</code></li><li>\u5C06 <code>xxxxxxxxxx</code> \u66FF\u6362\u4E3A\u8D85\u7EA7\u7528\u6237\u7684ID</li></ul></li></ul><hr><h3 id="\u914D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u914D\u7F6E" aria-hidden="true">#</a> \u914D\u7F6E</h3><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code># \u914D\u7F6E\u6587\u4EF6\u53C2\u8003
+
+HOST=127.0.0.1
+
+PORT=8080
+
+LOG_LEVEL=DEBUG
+
+# Windows \u7528\u6237\u8BF7\u5C06\u6B64\u9879\u8BBE\u7F6E\u4E3Afalse
+FASTAPI_RELOAD=false    
+      
+# \u8D85\u7EA7\u7528\u6237\uFF08\u9891\u9053\u4E0D\u53EF\u7528\uFF09
+SUPERUSERS=[&quot;xxxxxx&quot;]  
+       
+# Bot \u6635\u79F0
+NICKNAME=[&quot;Haruka_Bot&quot;]        
+           
+# \u547D\u4EE4\u5934
+COMMAND_START=[&quot;&quot;,&quot;/&quot;]  
+          
+# \u5173\u95ED @ \u524D\u7F6E
+Haruka_TO_ME=False
+
+# \u5F00\u542F\u4E0B\u64AD\u901A\u77E5
+HARUKA_LIVE_OFF_NOTIFY=True
+     
+# \u9891\u9053\u7BA1\u7406\u5458\u8EAB\u4EFD\u7EC4\uFF08\u4EC5Haruka\uFF09
+Haruka_Guild_Admin_Group_List=[&quot;Haruka&quot;]
+
+# \u9891\u9053\u8D85\u7EA7\u7528\u6237\uFF08\u4EC5Haruka\uFF09
+Haruka_Guild_Super_User_List=[&quot;xxxxxxxx&quot;]
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,11);function H(B,E){const l=u("ExternalLinkIcon");return s(),a("div",null,[r,t,i("ul",null,[i("li",null,[i("p",null,[i("a",v,[_,n(l)]),b])]),p,m]),h,x,i("ul",null,[i("li",null,[g,i("a",k,[y,n(l)]),q])]),f])}var N=d(c,[["render",H],["__file","install.html.vue"]]);export{N as default};
