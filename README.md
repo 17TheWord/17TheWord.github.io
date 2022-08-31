@@ -1,14 +1,14 @@
 # 17 TheWord 文档库
 
-- [API](api/README.md)
+- [API](https://doc.scareye.com/api/)
 
-- [MC大佬指北](mchelp/README.md)
+- [MC大佬指北](https://doc.scareye.com/mchelp/)
 
-- [MGC 歧义及观点纠正](mgc/README.md)
+- [MGC 歧义及观点纠正](https://doc.scareye.com/mgc/)
 
-- [MC_QQ](mc_qq/README.md)
+- [MC_QQ](https://doc.scareye.com/mc_qq/)
 
-- [HarukaBot_Guild](haruka_guild/README.md)
+- [HarukaBot_Guild](https://doc.scareye.com/haruka_guild/)
 
 - 仍在装修中
 
