@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-b676dc38","path":"/mc_qq/install/config.html","title":"\u914D\u7F6E","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"NoneBot2","slug":"nonebot2","children":[]},{"level":2,"title":"Minecraft Server","slug":"minecraft-server","children":[]}],"git":{},"filePathRelative":"mc_qq/install/config.md"}');export{e as data};
