@@ -13,5 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: 17TheWord/17TheWord.github.io
         TARGET_BRANCH: gh_pages
-        BUILD_SCRIPT: vuepress build docs
+        BUILD_SCRIPT: npm run docs:build
         BUILD_DIR: docs/.vuepress/dist/
