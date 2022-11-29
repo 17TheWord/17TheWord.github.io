@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-7da9167e\",\"path\":\"/mgc/netease_shader.html\",\"title\":\"网易版着色器\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":\"mgc/netease_shader.md\"}")
