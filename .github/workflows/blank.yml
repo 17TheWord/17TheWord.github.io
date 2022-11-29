@@ -28,12 +28,3 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: jenkey2011/vuepress-deploy@c125854a55a2d3fbe1847e0fc25a4aa662582520
         uses: jenkey2011/vuepress-deploy@v1.8.1
-        
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          # 部署到 gh-pages 分支
-          BRANCH: gh-pages
-          # 部署目录为 VuePress 的默认输出目录，这里需要根据项目的目录进行修改
-          FOLDER: docs/.vuepress/dist
