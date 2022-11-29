@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-62914b13\",\"path\":\"/mc_qq/install/\",\"title\":\"选择安装方式\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":\"mc_qq/install/README.md\"}")

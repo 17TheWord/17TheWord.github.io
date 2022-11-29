@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"17 TheWord 文档库\",\"description\":\"17 TheWord\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.jpg\"}]],\"locales\":{}}")
