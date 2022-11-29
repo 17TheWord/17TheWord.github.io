@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-d762f608\",\"path\":\"/mchelp/online/multiplayer.html\",\"title\":\"多人联机\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":\"mchelp/online/multiplayer.md\"}")

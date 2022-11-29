@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-80764dc4\",\"path\":\"/mchelp/install/download.html\",\"title\":\"正版获取及下载\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":\"mchelp/install/download.md\"}")
