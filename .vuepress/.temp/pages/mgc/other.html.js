@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-c6709a70\",\"path\":\"/mgc/other.html\",\"title\":\"其他观点纠正\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"Java 与 基岩\",\"slug\":\"java-与-基岩\",\"children\":[]},{\"level\":2,\"title\":\"基岩的贴图\",\"slug\":\"基岩的贴图\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"mgc/other.md\"}")

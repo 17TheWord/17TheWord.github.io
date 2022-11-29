@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-b115ff9e\",\"path\":\"/mchelp/other/shadow_material.html\",\"title\":\"光影与材质基础概念\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":\"mchelp/other/shadow_material.md\"}")
