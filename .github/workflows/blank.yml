@@ -23,8 +23,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Vuepress deploy
-        # You may pin to the exact commit or the version.
-        # uses: jenkey2011/vuepress-deploy@c125854a55a2d3fbe1847e0fc25a4aa662582520
-        uses: jenkey2011/vuepress-deploy@v1.8.1
+      # 生成静态文件
+      - name: Build
+        run: npm install && npm run docs:build
+
+      # 部署到 GitHub Pages
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 也就是我们刚才生成的 secret
+          BRANCH: gh-pages # 部署到 gh-pages 分支，因为 main 分支存放的一般是源码，而 gh-pages 分支则用来存放生成的静态文件
+          FOLDER: docs/.vuepress/dist # vuepress 生成的静态文件存放的地方
