@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-6464732a\",\"path\":\"/mchelp/install/mod.html\",\"title\":\"安装 Mod\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":\"mchelp/install/mod.md\"}")
