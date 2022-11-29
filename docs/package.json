@@ -6,8 +6,7 @@
   "author": "17TheWord <17TheWord@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "docs:build": "vuepress build docs"
   },
   
   "license": "AGPL-3.0",
