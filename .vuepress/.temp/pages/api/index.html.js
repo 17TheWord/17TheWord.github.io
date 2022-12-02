@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-744497ce\",\"path\":\"/api/\",\"title\":\"介绍\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"记录自写API\",\"slug\":\"记录自写api\",\"children\":[]},{\"level\":2,\"title\":\"注意\",\"slug\":\"注意\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"api/README.md\"}")
