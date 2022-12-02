@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-62914b13","path":"/mc_qq/install/","title":"\u9009\u62E9\u5B89\u88C5\u65B9\u5F0F","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1669966928000,"contributors":[{"name":"zhzhongshi","email":"39423408+zhzhongshi@users.noreply.github.com","commits":1}]},"filePathRelative":"mc_qq/install/README.md"}');export{t as data};
