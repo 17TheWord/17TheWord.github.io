@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-357456c6\",\"path\":\"/mchelp/install/shadow.html\",\"title\":\"安装光影与材质\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":\"mchelp/install/shadow.md\"}")

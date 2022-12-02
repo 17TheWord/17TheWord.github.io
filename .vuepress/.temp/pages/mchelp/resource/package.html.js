@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-beb56c16\",\"path\":\"/mchelp/resource/package.html\",\"title\":\"整合包下载区\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":\"mchelp/resource/package.md\"}")
