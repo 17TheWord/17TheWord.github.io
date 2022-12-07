@@ -5,12 +5,16 @@ module.exports = {
     title: '17 TheWord 文档库',
     description: '17 TheWord',
     base: '/',
-    lang: 'zh-CN',
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
     head: [['link', {rel: 'icon', href: '/favicon.jpg'}]],
     plugins: [
         docsearchPlugin({
             appId: '2BHALOOIXH',
-            apiKey: '8adf9b5a9690b3fdafcc2467f8d5467a',
+            apiKey: 'fef475d7eb2e155d48d59cec831d799b',
             indexName: 'scareye',
         }),
     ],
