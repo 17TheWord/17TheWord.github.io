@@ -15,6 +15,7 @@ MC_QQ_IP="127.0.0.1"
 MC_QQ_WS_PORT=8765
 MC_QQ_MCRCON_PASSWORD="123456"
 MC_QQ_MCRCON_PORT=25575
+MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["管理员", "OP"]
 ```
 :::
 
@@ -93,6 +94,18 @@ MC_QQ_MCRCON_PORT=25575
 
 ---
 
+### MC_QQ_MCRCON_GUILD_ADMIN_ROLES
+
+默认值：["频道主", "管理员"]
+
+MC 服务器 Rcon 端口
+
+```json
+MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["管理员", "OP"]
+```
+
+---
+
 ## Minecraft Server
 
 ::: warning 注意！
@@ -128,6 +141,7 @@ say_way: "说："
 join_quit: true
 
 # 日志路径
+# 仅限日志读取程序使用
 # Windows 请用 ".\\logs\\"
 # Linux 请用 "./logs/"
 log_local: "./logs/"

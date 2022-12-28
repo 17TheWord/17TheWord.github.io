@@ -19,7 +19,7 @@ pip install nonebot-plugin-mcqq-mcrcon
 - 在 `nonebot2` 项目中设置 `load_plugin()`
 
 ```python
-nonebot.load_plugin("nonebot_plugin_mcqq")
+nonebot.load_plugin("nonebot_plugin_mcqq_mcrcon")
 ```
 
 ---
@@ -60,6 +60,16 @@ pip install nonebot-plugin-guild-patch
 #### 配置文件
 
 - 参考 [NoneBot2 配置文件](/mc_qq/config.html#nonebot2) 填写连接信息
+
+#### 命令
+
+- 命令头为 `/`，在 `.env.dev` 中自行设置
+
+- ```
+  /mcc give 17TheWord apple 1
+  ```
+
+---
 
 ## Minecraft Server 端
 

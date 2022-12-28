@@ -19,7 +19,7 @@ pip install nonebot-plugin-mcqq-mcrcon
 - 在 `nonebot2` 项目中设置 `load_plugin()`
 
 ```python
-nonebot.load_plugin("nonebot_plugin_mcqq")
+nonebot.load_plugin("nonebot_plugin_mcqq_mcrcon")
 ```
 
 ---
@@ -63,12 +63,21 @@ pip install nonebot-plugin-guild-patch
 
 ---
 
+#### 命令
+
+- 命令头为 `/`，在 `.env.dev` 中自行设置
+
+- ```
+  /mcc give 17TheWord apple 1
+  ```
+
+---
+
 ## Minecraft Server 端
 
-1. 从 [Releases](https://github.com/17TheWord/nonebot-plugin-mcqq/releases) 下载适合自己服务端版本的 `MC_QQ_x.x.x-1.0-SNAPSHOT.jar`
+1. 从 [Releases](https://github.com/17TheWord/nonebot-plugin-mcqq/releases) 下载适合自己服务端版本的 `MC_QQ_Spigot_x.x.x.jar`
    到 `plugins` 文件夹
-2. 若没有找到所需版本，可到 [分支](https://github.com/17TheWord/nonebot-plugin-mcqq/tree/minecraft_plugin) 下载并自行编译
-3. 在配置文件 `server.properties` 中开启 `Rcon`
+2. 在配置文件 `server.properties` 中开启 `Rcon`
 
 ```properties
 enable-rcon=true
