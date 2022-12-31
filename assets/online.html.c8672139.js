@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-090d4884","path":"/mchelp/resource/online.html","title":"\u8054\u673A\u4E0B\u8F7D\u533A","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1672499074000,"contributors":[{"name":"17TheWord","email":"17theword@gmail.com","commits":1}]},"filePathRelative":"mchelp/resource/online.md"}');export{e as data};
