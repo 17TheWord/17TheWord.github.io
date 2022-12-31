@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-1025a7d7\",\"path\":\"/mchelp/resource/launcher.html\",\"title\":\"启动器下载区\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":\"mchelp/resource/launcher.md\"}")

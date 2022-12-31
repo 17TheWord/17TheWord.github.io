@@ -66,6 +66,7 @@ pip install nonebot-plugin-guild-patch
 - 命令头为 `/`，在 `.env.dev` 中自行设置
 
 - ```
+  # 示例
   /mcc give 17TheWord apple 1
   ```
 

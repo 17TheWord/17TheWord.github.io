@@ -61,14 +61,6 @@ pip install nonebot-plugin-guild-patch
 
 - 参考 [NoneBot2 配置文件](/mc_qq/config.html#nonebot2) 填写连接信息
 
-#### 命令
-
-- ```
-  # 查看所有在线玩家
-  /list
-  ```
-
----
 
 ## Minecraft Server 端
 
