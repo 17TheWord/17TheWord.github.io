@@ -17,4 +17,3 @@
     - `AsyncPlayerChatEvent` 异步玩家聊天事件
     - `PlayerJoinEvent` 玩家加入事件
     - `PlayerQuitEvent` 玩家离开事件
-  - `Paper` 端中 `AsyncPlayerChatEvent` 已经过时，改用 `AsyncChatEvent`

@@ -13,15 +13,15 @@ MC_QQ_IP="127.0.0.1"
 MC_QQ_WS_PORT=8765
 MC_QQ_DISPLAY_SERVER_NAME=True
 MC_QQ_SEND_GROUP_NAME=True
-MC_QQ_SERVERS_LIST=[["server1", [123456789, 987654321], [[123456789098765432, 123456], [98765432101234567, 654321]]], ["server2", [123456789], [[123456789098765432, 123456]]]]
+MC_QQ_SERVERS_LIST=[["服务器1", [群号1], [[频道1ID, 频道1子频道ID]]], ["服务器2", [群号1, 群号2], [[频道1ID, 频道1子频道ID], [频道2ID, 频道2子频道ID]]]]
 ```
 :::
 
 ::: details nonebot-plugin-mcqq-mcrcon 示例（点我展开）
 
 ```json
-MC_QQ_GROUP_LIST=[123456789]
-MC_QQ_GUILD_LIST=[[12345678987654321,12345678]]
+MC_QQ_GROUP_LIST=[群号]
+MC_QQ_GUILD_LIST=[[频道ID,子频道ID]]
 MC_QQ_IP="127.0.0.1"
 MC_QQ_WS_PORT=8765
 MC_QQ_MCRCON_PASSWORD="123456"
@@ -138,6 +138,33 @@ MC_QQ_DISPLAY_SERVER_NAME=False
 
 ```json
 MC_QQ_SEND_GROUP_NAME=False
+```
+### MC_QQ_SERVERS_LIST
+
+默认值：[]
+
+- 服务器列表
+  - 服务器名称请与MC端设置的一致
+
+```json
+MC_QQ_SERVERS_LIST=[
+  [
+    "服务器1",
+    [群号1],
+    [
+      [频道1ID, 频道1子频道ID],
+    ]
+  ],
+  [
+    "服务器2",
+    [
+      群号1, 群号2
+    ],
+    [
+      [频道1ID, 频道1子频道ID], [频道2ID, 频道2子频道ID],
+    ]
+  ]
+]
 ```
 
 ---
