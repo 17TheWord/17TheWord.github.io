@@ -1,5 +1,5 @@
-import {defaultTheme} from 'vuepress'
-import {docsearchPlugin} from "@vuepress/plugin-docsearch";
+const {defaultTheme} = require("vuepress");
+const {docsearchPlugin} = require('@vuepress/plugin-docsearch')
 
 module.exports = {
     title: '17 TheWord 文档库',
