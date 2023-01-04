@@ -1,19 +1,45 @@
 # 关于
 
+MC_QQ 是我学习 Python 过程中诞生的一个实践项目。初衷只是同步群聊与服务器的消息。
+
+如今随着这个项目不断的完善，我希望 MC_QQ 可以适用于更多的场景（NoneBot适配器），为不同用户提供最合适的推送方式。
+
 ## 更新记录
 
 - 前往 [Releases](https://github.com/17TheWord/nonebot-plugin-mcqq/releases/) 查看
 
 ## NoneBot 端
 
-- 插件版需要 `websockets`
-- MCRcon版需要 `mcrcon`
+- Python版本：`Python3.9` ~ `Python3.10`，
+- `Python3.8` 并未进行测试
+
+- 依赖
+  - `websockets`
+  - `mcrcon`
 
 ## Minecraft Server 端
 
-- 版本支持：
-  - 理论上支持所有版本，但需要编译
-  - 插件使用的接口有：
-    - `AsyncPlayerChatEvent` 异步玩家聊天事件
-    - `PlayerJoinEvent` 玩家加入事件
-    - `PlayerQuitEvent` 玩家离开事件
+- 版本支持（理论，未完全测试）：
+  - 插件版
+    - `1.12` ~ `最新版本`
+  - 日志程序
+    - `MineCraftServer`
+    - `ForgeServer`
+    - `FabricServer`
+
+## 建议
+
+- 如非必要，请尽量使用支持插件的服务端，  
+日志读取程序可能再日志的读取过程中发生些许错误
+
+- 有关服务端获取的方式可以参考 [**[大佬指北丨联机下载区]**](/mchelp/resource/online)
+
+## 获取帮助
+
+你可以在 [Issues](https://github.com/17TheWord/nonebot-plugin-mcqq/issues) 提问或者加 [QQ 群（722531777）](https://qm.qq.com/cgi-bin/qm/qr?k=jzRsb-J2CZJmZyp8_mld2wyle4Khh35y&jump_from=webapi&authKey=chwHKxBT2evRCgBquFEN1cPZPUFZVhGtrZa0zq2ReFF3dVyJFSYe/w4CjMFWFOdB) 获得更多帮助。
+
+## 贡献与支持
+
+觉得好用可以给这个项目点个 `Star`。
+
+有意见或者建议也欢迎提交 [Issues](https://github.com/17TheWord/nonebot-plugin-mcqq/issues) 和 [Pull requests](https://github.com/17TheWord/nonebot-plugin-mcqq/pulls)。

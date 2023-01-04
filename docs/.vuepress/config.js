@@ -1,5 +1,5 @@
-const {defaultTheme} = require("vuepress");
-const {docsearchPlugin} = require('@vuepress/plugin-docsearch')
+import {defaultTheme} from 'vuepress'
+import {docsearchPlugin} from "@vuepress/plugin-docsearch";
 
 module.exports = {
     title: '17 TheWord 文档库',
@@ -128,7 +128,13 @@ module.exports = {
                         '/mc_qq/install/mcrcon',
                     ]
                 },
-                '/mc_qq/config',
+                {
+                    text: '配置',
+                    children: [
+                        '/mc_qq/config/README.md',
+                        '/mc_qq/config/mcserver.md',
+                    ]
+                },
                 '/mc_qq/about',
                 '/mc_qq/update',
             ],
