@@ -157,7 +157,7 @@ MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
     - NoneBot 读取配置文件为按行读取，填写后请将他们缩减为一行，如上方示例一样
 
   ```json
-  MC_QQ_SERVERS_LIST = [
+  MC_QQ_SERVERS_LIST=[
     {
       "server_name": "服务器1",
       "group_list": [
