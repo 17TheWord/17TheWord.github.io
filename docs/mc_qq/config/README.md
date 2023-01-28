@@ -18,7 +18,7 @@ MC_QQ_SEND_GROUP_NAME=True
 
 MC_QQ_DISPLAY_SERVER_NAME=True
 
-MC_QQ_SERVERS_LIST = [{"server_name": "服务器1", "group_list": [群号1, 群号2], "guild_list": [{"guild_id": 频道1的ID, "channel_id": 子频道a的ID}]}]
+MC_QQ_SERVERS_LIST=[{"server_name": "服务器1", "group_list": [群号1, 群号2], "guild_list": [{"guild_id": 频道1的ID, "channel_id": 子频道a的ID}]}]
 ```
 
 :::
