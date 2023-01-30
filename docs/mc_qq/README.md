@@ -35,10 +35,15 @@
 
 ## 特别感谢
 
-- [@SK-415](https://github.com/SK-415) ：感谢SK佬给予许多优秀的建议和耐心的解答。
-- [@zhz-红石头](https://github.com/zhzhongshi) ：感谢红石头在代码上的帮助
-- [NoneBot2](https://github.com/nonebot/nonebot2)： 插件使用的开发框架。
-- [go-cqhttp](https://github.com/Mrs4s/go-cqhttp)： 稳定完善的 CQHTTP 实现。
+- [@SK-415](https://github.com/SK-415) 感谢SK佬给予许多优秀的建议和耐心的解答。
+- [@zhz-红石头](https://github.com/zhzhongshi) 感谢红石头在代码上的帮助
+- [NoneBot2](https://github.com/nonebot/nonebot2) 插件使用的开发框架。
+- [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 稳定完善的 CQHTTP 实现。
+
+## 其他
+
+- [青岚Bot](https://github.com/17TheWord/qinglan_bot) 青岚，MCQQ的Bot版本，拥有动态配置，功能更加强大
+- [Spigot适配器](https://github.com/17TheWord/nonebot-adapter-spigot) 插件的适配器版本，仍在开发中
 
 ## 贡献与支持
 
