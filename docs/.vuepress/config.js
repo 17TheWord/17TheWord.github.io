@@ -51,6 +51,10 @@ module.exports = {
                 text: 'Haruka_Guild',
                 link: '/haruka_guild/',
             },
+            {
+                text: 'Novel AI',
+                link: '/novelai',
+            },
         ],
 
         //左侧列表
