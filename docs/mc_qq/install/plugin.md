@@ -81,4 +81,3 @@ pip install nonebot-plugin-guild-patch
 - 从 [Releases](https://github.com/17TheWord/nonebot-plugin-mcqq/releases) 下载适合自己服务端版本的 `MC_QQ_Spigot_x.x.x.jar`
   到 `plugins` 文件夹
 - 参考 [Minecraft Server 配置文件](/mc_qq/config/mcserver#minecraft-server) 填写配置文件
-

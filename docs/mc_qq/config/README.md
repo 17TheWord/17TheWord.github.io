@@ -1,11 +1,12 @@
 # NoneBot2
 
 ::: warning 注意！
+
 - 安装完插件后，请在机器人的配置文件，如：`.env.dev` 中写入相关配置信息  
-添加配置项只需在 `.env.*` 文件最底下另起一行直接添加即可。
+  添加配置项只需在 `.env.*` 文件最底下另起一行直接添加即可。
 
 - 如有多个服务器，请务必对每个服务器设置**不同**的服务器名称，填写在下列配置中
-:::
+  :::
 
 ::: details nonebot-plugin-mcqq 示例（点我展开）
 
@@ -18,7 +19,9 @@ MC_QQ_SEND_GROUP_NAME=True
 
 MC_QQ_DISPLAY_SERVER_NAME=True
 
-MC_QQ_SERVERS_LIST=[{"server_name": "服务器1", "group_list": [群号1, 群号2], "guild_list": [{"guild_id": 频道1的ID, "channel_id": 子频道a的ID}]}]
+MC_QQ_SERVERS_LIST='[{"server_name": "服务器1", "group_list": [群号1, 群号2], "guild_list": [{"guild_id": 频道1的ID, "channel_id": 子频道a的ID}]}]'
+
+MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 ```
 
 :::
@@ -30,19 +33,22 @@ MC_QQ_SERVERS_LIST=[{"server_name": "服务器1", "group_list": [群号1, 群号
 ```json
 MC_QQ_WS_IP="127.0.0.1"
 
-MC_QQ_WS_PORT=8765
+MC_QQ_RCON_WS_PORT=8766
 
 MC_QQ_SEND_GROUP_NAME=True
 
 MC_QQ_DISPLAY_SERVER_NAME=True
 
-MC_QQ_SERVERS_LIST = [{"server_name": "服务器1", "group_list": [群号1,群号2], "guild_list": [{"guild_id": 频道1的ID, "channel_id": 子频道a的ID}]}]
+MC_QQ_SERVERS_LIST = '[{"server_name": "服务器1", "group_list": [群号1,群号2], "guild_list": [{"guild_id": 频道1的ID, "channel_id": 子频道a的ID}]}]'
 
-MC_QQ_MCRCON_PASSWORD="mima"
+MC_QQ_RCON_PASSWORD="mima"
 
-MC_QQ_MCRCON_RCON_LIST={"服务器1": 25575, "服务器2": 25576}
+MC_QQ_RCON_RCON_DICT='{
+  "服务器1": 25575,
+  "服务器2": 25576
+}'
 
-MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
+MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 ```
 
 :::
@@ -64,12 +70,15 @@ MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 
 ### WebSocket 端口
 
-默认值：`8765`
+默认值：`8765`、 `8766`
 
 - WebSocket服务器 端口
 
   ```json
+  # MCQQ版
   MC_QQ_WS_PORT=8765
+  # Rcon版本
+  MC_QQ_RCON_WS_PORT=8766
   ```
 
 ### 是否发送群聊名称
@@ -105,10 +114,10 @@ MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 默认值：`""`
 
 - MC 服务器 Rcon 密码
-  - 如果有多个服务器，请一定要给所有服务器设置相同的 `Rcon` 密码
+    - 如果有多个服务器，请一定要给所有服务器设置相同的 `Rcon` 密码
 
   ```json
-  MC_QQ_MCRCON_PASSWORD="mima123"
+  MC_QQ_RCON_PASSWORD="mima123"
   ```
 
 ---
@@ -118,15 +127,14 @@ MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 默认值：`25575`
 
 - MC 服务器 Rcon 端口
-  - NoneBot 读取配置文件为按行读取，填写后请将他们缩减为一行，如上方示例一样
-  - 如果有多个服务器，请一定要给服务器设置不同的名称、不同的 `Rcon` 端口号
-  - 服务器名称请与MC端设置的一致
+    - 如果有多个服务器，请一定要给服务器设置不同的名称、不同的 `Rcon` 端口号
+    - 服务器名称请与MC端设置的一致
 
   ```json
-  MC_QQ_MCRCON_RCON_LIST={
+  MC_QQ_RCON_RCON_dict='{
     "服务器1": 25575,
     "服务器2": 25576
-  }
+  }'
   ```
 
 ---
@@ -139,10 +147,7 @@ MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
     - NoneBot 读取配置文件为按行读取，填写后请将他们缩减为一行，如上方示例一样
 
   ```json
-  MC_QQ_MCRCON_GUILD_ADMIN_ROLES=[
-    "管理员",
-    "服务器OP"
-  ]
+  MC_QQ_GUILD_ADMIN_ROLES=["管理员", "服务器OP"]
   ```
 
 ---
@@ -152,12 +157,10 @@ MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 默认值：`[]`
 
 - 服务器列表
-    - 如果有多个服务器，请一定要给服务器设置不同的名称
     - 服务器名称请与MC端设置的一致
-    - NoneBot 读取配置文件为按行读取，填写后请将他们缩减为一行，如上方示例一样
 
   ```json
-  MC_QQ_SERVERS_LIST=[
+  MC_QQ_SERVERS_LIST='[
     {
       "server_name": "服务器1",
       "group_list": [
@@ -191,5 +194,5 @@ MC_QQ_MCRCON_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
         }
       ]
     }
-  ]
+  ]'
   ```
