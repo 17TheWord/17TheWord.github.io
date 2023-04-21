@@ -104,7 +104,7 @@ pip install nonebot-plugin-guild-patch
 
 ```properties
 # 开启Rcon：
-enable-rcon=false
+enable-rcon=true
 # Rcon端口：如有多个服务器，Rcon端口请勿重复
 rcon.port=25575
 # Rcon密码：如有多个服务器，密码请统一 
