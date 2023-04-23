@@ -128,8 +128,7 @@ module.exports = {
                     children: [
                         '/mc_qq/install/README.md',
                         '/mc_qq/install/plugin',
-                        '/mc_qq/install/mcrcon_plugin',
-                        '/mc_qq/install/mcrcon',
+                        '/mc_qq/install/mod',
                     ]
                 },
                 {

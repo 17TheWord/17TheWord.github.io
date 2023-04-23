@@ -5,54 +5,49 @@
 - 安装完插件后，请在机器人的配置文件，如：`.env.dev` 中写入相关配置信息  
   添加配置项只需在 `.env.*` 文件最底下另起一行直接添加即可。
 
+- 有些配置可以不填写，如：WebSocket的IP、端口等，插件会直接使用默认值
+
 - 如有多个服务器，请务必对每个服务器设置**不同**的服务器名称，填写在下列配置中
   :::
 
 ::: details nonebot-plugin-mcqq 示例（点我展开）
 
-```json
-MC_QQ_WS_IP="127.0.0.1"
+```json 
+mc_qq_ws_ip = "127.0.0.1"
 
-MC_QQ_WS_PORT=8765
+mc_qq_ws_port = 8765
 
-MC_QQ_SEND_GROUP_NAME=true
+mc_qq_send_group_name = true
 
-MC_QQ_DISPLAY_SERVER_NAME=true
+mc_qq_display_server_name = true
 
-MC_QQ_SERVERS_LIST='[{"server_name": "服务器1", "group_list": [群号1, 群号2], "guild_list": [{"guild_id": 频道1的ID, "channel_id": 子频道a的ID}]}]'
+mc_qq_server_list = '[
+  {
+    "server_name": "服务器1",
+    "enable_rcon": false,
+    "group_list": [
+      群号1,
+      群号2
+    ],
+    "guild_list": [
+      {
+        "guild_id": 频道1的ID,
+        "channel_id": 子频道a的ID
+      }
+    ]
+   }
+]'
 
-MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
-```
+mc_qq_rcon_password = "123456789"
 
-:::
-
----
-
-::: details nonebot-plugin-mcqq-mcrcon 示例（点我展开）
-
-```json
-MC_QQ_WS_IP="127.0.0.1"
-
-MC_QQ_RCON_WS_PORT=8766
-
-MC_QQ_SEND_GROUP_NAME=true
-
-MC_QQ_DISPLAY_SERVER_NAME=true
-
-MC_QQ_SERVERS_LIST = '[{"server_name": "服务器1", "group_list": [群号1,群号2], "guild_list": [{"guild_id": 频道1的ID, "channel_id": 子频道a的ID}]}]'
-
-MC_QQ_RCON_PASSWORD="mima"
-
-MC_QQ_RCON_RCON_DICT='{
-  "服务器1": 25575,
-  "服务器2": 25576
+mc_qq_rcon_dict = '{
+  "服务器1": 25575
 }'
 
-MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
+mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
 ```
 
 :::
-
 
 ---
 
@@ -62,23 +57,20 @@ MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 
 - WebSocket服务器 IP
 
-  ```json
-  MC_QQ_IP="127.0.0.1"
+  ```json 
+  mc_qq_ws_ip = "127.0.0.1"
   ```
 
 ---
 
 ### WebSocket 端口
 
-默认值：`8765`、 `8766`
+默认值：`8765`
 
 - WebSocket服务器 端口
 
-  ```json
-  # MCQQ版
-  MC_QQ_WS_PORT=8765
-  # Rcon版本
-  MC_QQ_RCON_WS_PORT=8766
+  ```json 
+  mc_qq_ws_port = 8765
   ```
 
 ### 是否发送群聊名称
@@ -89,8 +81,8 @@ MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
     - `[MC_QQ] 测试群 17TheWord 说：Test1`
     - `[MC_QQ] 测试频道丨测试子频道 17TheWord 说：Test2`
 
-  ```json
-  MC_QQ_SEND_GROUP_NAME=false
+  ```json 
+  mc_qq_send_group_name = false
   ```
 
 ---
@@ -103,21 +95,21 @@ MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
     - `[server1] 17TheWord 说：Test1`
     - `[server2] 17TheWord 说：Test2`
 
-  ```json
-  MC_QQ_DISPLAY_SERVER_NAME=false
+  ```json 
+  mc_qq_display_server_name = false
   ```
 
 ---
 
-### MCRcon 密码
+### Rcon 密码
 
-默认值：`""`
+默认值：`"password"`
 
 - MC 服务器 Rcon 密码
     - 如果有多个服务器，请一定要给所有服务器设置相同的 `Rcon` 密码
 
-  ```json
-  MC_QQ_RCON_PASSWORD="mima123"
+  ```json 
+  mc_qq_rcon_password = "123456789"
   ```
 
 ---
@@ -128,10 +120,10 @@ MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 
 - MC 服务器 Rcon 端口
     - 如果有多个服务器，请一定要给服务器设置不同的名称、不同的 `Rcon` 端口号
-    - 服务器名称请与MC端设置的一致
+    - 服务器名称请与 `MC` 端设置的一致
 
-  ```json
-  MC_QQ_RCON_RCON_dict='{
+  ```json 
+  mc_qq_rcon_dict = '{
     "服务器1": 25575,
     "服务器2": 25576
   }'
@@ -146,8 +138,8 @@ MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 - 频道中可以使用发送有效命令的身份组
     - NoneBot 读取配置文件为按行读取，填写后请将他们缩减为一行，如上方示例一样
 
-  ```json
-  MC_QQ_GUILD_ADMIN_ROLES=["管理员", "服务器OP"]
+  ```json 
+  mc_qq_guild_admin_roles = ["管理员", "服务器OP"]
   ```
 
 ---
@@ -159,10 +151,11 @@ MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
 - 服务器列表
     - 服务器名称请与MC端设置的一致
 
-  ```json
+  ```json 
   MC_QQ_SERVERS_LIST='[
     {
       "server_name": "服务器1",
+      "enable_rcon": false,
       "group_list": [
         群号1
       ],
@@ -174,18 +167,19 @@ MC_QQ_GUILD_ADMIN_ROLES=["频道管理员", "服务器OP"]
       ]
     },
     {
-      "server_name": "服务器1",
+      "server_name": "服务器2",
+      "enable_rcon": false,
       "group_list": [
-        群号1,
-        群号2
+        群号3,
+        群号4
       ],
       "guild_list": [
         {
-          "guild_id": 频道1的ID,
-          "channel_id": 子频道a的ID
+          "guild_id": 频道2的ID,
+          "channel_id": 子频道c的ID
         },
         {
-          "guild_id": 频道1的ID,
+          "guild_id": 频道2的ID,
           "channel_id": 子频道b的ID
         },
         {

@@ -15,7 +15,7 @@ MC_QQ 是我学习 Python 过程中诞生的一个实践项目。初衷只是同
 
 - 依赖
   - `websockets`
-  - `mcrcon`
+  - `aio-mc-rcon`
 
 ## Minecraft Server 端
 
