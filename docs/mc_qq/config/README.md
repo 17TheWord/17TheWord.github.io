@@ -13,9 +13,7 @@
 ::: details nonebot-plugin-mcqq 示例（点我展开）
 
 ```json 
-mc_qq_ws_ip = "127.0.0.1"
-
-mc_qq_ws_port = 8765
+mc_qq_ws_url = "/onebot/v11/mcqq"
 
 mc_qq_send_group_name = true
 
@@ -51,27 +49,17 @@ mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
 
 ---
 
-### WebSocket 地址
+### WebSocket 路由地址
 
-默认值：`"127.0.0.1"`
+默认值：`"/onebot/v11/mcqq"`
 
-- WebSocket服务器 IP
+- WebSocket 服务器路由地址，如在MC端配置文件填写： "ws://127.0.0.1:8080:onebot/v11/mcqq"
 
   ```json 
-  mc_qq_ws_ip = "127.0.0.1"
+  mc_qq_ws_url = "/onebot/v11/mcqq"
   ```
 
 ---
-
-### WebSocket 端口
-
-默认值：`8765`
-
-- WebSocket服务器 端口
-
-  ```json 
-  mc_qq_ws_port = 8765
-  ```
 
 ### 是否发送群聊名称
 
