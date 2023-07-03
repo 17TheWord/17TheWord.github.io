@@ -18,10 +18,13 @@
 enable_mc_qq: true
 
 # 请在冒号后填写 WebSocket 地址。
-# 若不填写，则地址默认为 127.0.0.1 ，端口默认为 8765
-# 若使用插件，请填写：ws://127.0.0.1:8765
-# 若使用适配器，请填写：ws://127.0.0.1:8765/spigot/ws
-websocket_url: "ws://127.0.0.1:8765"
+# 若不填写，则地址 ws://127.0.0.1:8080/onebot/v11/mcqq
+#
+# 若使用插件，请填写：ws://127.0.0.1:8080/onebot/v11/mcqq
+#
+# 若使用适配器，请填写：ws://127.0.0.1:8080/spigot/ws
+#
+websocket_url: "ws://127.0.0.1:8080/onebot/v11/mcqq"
 
 # 发送到群消息中，玩家昵称与消息之间的符号
 # 默认为 “说：”
@@ -59,15 +62,4 @@ server_name: "Server"
 #   测试群 17TheWord 说：你好
 #   测试频道/测试子频道 17TheWord 说：你好
 display_groupname: false
-
-# 日志路径
-# 仅日志读取程序可用
-# Windows 请用 ".\\logs\\"
-# Linux 请用 "./logs/"
-log_local: "./logs/"
-
-# 日志名称
-# 仅日志读取程序可用
-# 若日志名称不同，请手动修改，一般为：latest.log
-log_name: "latest.log"
 ```
