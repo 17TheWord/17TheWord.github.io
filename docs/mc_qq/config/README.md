@@ -22,7 +22,7 @@ mc_qq_display_server_name = true
 mc_qq_server_list = '[
   {
     "server_name": "Server",
-    "enable_rcon": false,
+    "rcon_enable": false,
     "group_list": [
       123456789
     ],
@@ -143,7 +143,7 @@ mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
   MC_QQ_SERVERS_LIST='[
     {
       "server_name": "服务器1",
-      "enable_rcon": false,
+      "rcon_enable": false,
       "group_list": [
         群号1
       ],
@@ -157,7 +157,7 @@ mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
     },
     {
       "server_name": "服务器2",
-      "enable_rcon": false,
+      "rcon_enable": false,
       "group_list": [
         群号3,
         群号4
