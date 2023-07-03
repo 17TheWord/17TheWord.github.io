@@ -62,4 +62,15 @@ server_name: "Server"
 #   测试群 17TheWord 说：你好
 #   测试频道/测试子频道 17TheWord 说：你好
 display_groupname: false
+
+# 日志路径
+# 仅日志读取程序可用
+# Windows 请用 ".\\logs\\"
+# Linux 请用 "./logs/"
+log_local: "./logs/"
+
+# 日志名称
+# 仅日志读取程序可用
+# 若日志名称不同，请手动修改，一般为：latest.log
+log_name: "latest.log"
 ```
