@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-5d52e5fc","path":"/mgc/author_says.html","title":"\u4F5C\u8005\u6709\u8BDD\u8BF4","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1688357108000,"contributors":[{"name":"17TheWord","email":"54731914+17TheWord@users.noreply.github.com","commits":1}]},"filePathRelative":"mgc/author_says.md"}');export{e as data};
