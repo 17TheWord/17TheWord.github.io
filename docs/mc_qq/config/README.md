@@ -153,7 +153,7 @@ mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
           "channel_id": 子频道a的ID
         }
       ],
-      "bot_self_id": 机器人QQ号（只有一个机器人可不填）
+      "bot_self_id": 机器人QQ号（只有一个机器人可删除本行）
     },
     {
       "server_name": "服务器2",
@@ -176,7 +176,7 @@ mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
           "channel_id": 子频道b的ID
         }
       ],
-      "bot_self_id": 机器人QQ号（只有一个机器人可不填）
+      "bot_self_id": 机器人QQ号（只有一个机器人可删除本行）
     }
   ]'
   ```
