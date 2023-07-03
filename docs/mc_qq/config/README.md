@@ -21,18 +21,18 @@ mc_qq_display_server_name = true
 
 mc_qq_server_list = '[
   {
-    "server_name": "服务器1",
+    "server_name": "Server",
     "enable_rcon": false,
     "group_list": [
-      群号1,
-      群号2
+      123456789
     ],
     "guild_list": [
       {
-        "guild_id": 频道1的ID,
-        "channel_id": 子频道a的ID
+        "guild_id": 123123123,
+        "channel_id": 1231231241241
       }
-    ]
+    ],
+    "bot_self_id": 123654987
    }
 ]'
 
@@ -152,7 +152,8 @@ mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
           "guild_id": 频道1的ID,
           "channel_id": 子频道a的ID
         }
-      ]
+      ],
+      "bot_self_id": 机器人QQ号（只有一个机器人可不填）
     },
     {
       "server_name": "服务器2",
@@ -174,7 +175,8 @@ mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
           "guild_id": 频道2的ID,
           "channel_id": 子频道b的ID
         }
-      ]
+      ],
+      "bot_self_id": 机器人QQ号（只有一个机器人可不填）
     }
   ]'
   ```
