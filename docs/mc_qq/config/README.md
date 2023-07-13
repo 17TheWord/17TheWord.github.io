@@ -53,7 +53,7 @@ mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
 
 默认值：`"/onebot/v11/mcqq"`
 
-- WebSocket 服务器路由地址，如在MC端配置文件填写： "ws://127.0.0.1:8080:onebot/v11/mcqq"
+- WebSocket 服务器路由地址，如在MC端配置文件填写： "ws://127.0.0.1:8080/onebot/v11/mcqq"
 
   ```json 
   mc_qq_ws_url = "/onebot/v11/mcqq"
