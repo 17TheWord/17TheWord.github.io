@@ -140,7 +140,7 @@ mc_qq_guild_admin_roles = ["频道管理员", "服务器OP"]
     - 服务器名称请与MC端设置的一致
 
   ```json 
-  MC_QQ_SERVERS_LIST='[
+  mc_qq_server_list='[
     {
       "server_name": "服务器1",
       "rcon_enable": false,
