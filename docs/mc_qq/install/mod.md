@@ -23,7 +23,7 @@
   <CodeGroupItem title="nb">
 
 ```shell
-nb plugin install nonebot-plugin-mcqq-mcrcon
+nb plugin install nonebot-plugin-mcqq
 ```
 
   </CodeGroupItem>
@@ -78,7 +78,7 @@ rcon.password=mima
 # 新建一个 `xxx.bat` 文件，写入如下代码
 
 @echo off
-java -Xms512g -Xmx512g -jar MC_QQ_MinecraftServer.jar
+java -Xms512m -Xmx512m -jar MC_QQ_MinecraftServer.jar
 pause
 
 # 双击 xxx.bat 启动
@@ -93,11 +93,11 @@ touch xxx.sh    # 新建一个 xxx.sh 文件
 
 nano xxx.sh     # 打开并写入如下内容：
 
-java -jar MC_QQ_MinecraftServer.jar
+java -jar Minecraft_Server.jar
 
 # 写完之后按 Ctrl + x 退出，按Y二次确认，直接回车保存为原名称文件
 
-chmod -R 775 MC_QQ_MinecraftServer.jar      # 更改文件权限，使其可以执行
+chmod -R 775 Minecraft_Server.jar      # 更改文件权限，使其可以执行
 
 ./xxx.sh    # 运行程序
 ```
