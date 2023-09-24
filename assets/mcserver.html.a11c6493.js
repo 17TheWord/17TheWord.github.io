@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4e5a8eb2","path":"/mc_qq/config/mcserver.html","title":"Minecraft Server","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1695545414000,"contributors":[{"name":"zhzhongshi","email":"39423408+zhzhongshi@users.noreply.github.com","commits":1}]},"filePathRelative":"mc_qq/config/mcserver.md"}');export{e as data};
